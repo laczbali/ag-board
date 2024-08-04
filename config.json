@@ -1,0 +1,37 @@
+{
+	"schema": 2,
+	"udp": {
+		"packets": [
+			{
+				"structure": "agboard",
+				"packet": "session_start",
+				"ip": "127.0.0.1",
+				"port": 20776,
+				"frequencyHz": 0,
+				"bEnabled": true
+			},
+			{
+				"structure": "agboard",
+				"packet": "session_update",
+				"ip": "127.0.0.1",
+				"port": 20777,
+				"frequencyHz": 1,
+				"bEnabled": true
+			},
+			{
+				"structure": "agboard",
+				"packet": "session_end",
+				"ip": "127.0.0.1",
+				"port": 20778,
+				"frequencyHz": 0,
+				"bEnabled": true
+			}
+		]
+	},
+	"lcd": {
+		"bDisplayGears": true
+	},
+	"dBox": {
+		"bEnabled": true
+	}
+}

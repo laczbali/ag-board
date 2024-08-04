@@ -1,0 +1,38 @@
+{
+    "versions": {
+        "schema": 1,
+        "data": 3
+    },
+    "id": "agboard",
+    "header": {
+        "channels": []
+    },
+    "packets": [
+        {
+            "id": "session_start",
+            "channels": [
+                "stage_shakedown",
+                "game_mode",
+                "vehicle_id",
+                "vehicle_class_id",
+                "vehicle_manufacturer_id",
+                "location_id",
+                "route_id"
+            ]
+        },
+        {
+            "id": "session_update",
+            "channels": [
+                "stage_current_time"
+            ]
+        },
+        {
+            "id": "session_end",
+            "channels": [
+                "stage_result_time",
+                "stage_result_time_penalty",
+                "stage_result_status"
+            ]
+        }
+    ]
+}
