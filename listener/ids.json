@@ -1,0 +1,1842 @@
+{
+    "versions": {
+        "schema": 1,
+        "data": {
+            "build": 1,
+            "major": 9,
+            "minor": 0
+        }
+    },
+    "vehicles": [
+        {
+            "id": 4,
+            "class": 21,
+            "manufacturer": 4,
+            "name": "Citroën C3 Rally2",
+            "builder": false
+        },
+        {
+            "id": 5,
+            "class": 21,
+            "manufacturer": 5,
+            "name": "Ford Fiesta Rally2",
+            "builder": false
+        },
+        {
+            "id": 7,
+            "class": 8,
+            "manufacturer": 7,
+            "name": "Peugeot 208 Rally4",
+            "builder": false
+        },
+        {
+            "id": 8,
+            "class": 21,
+            "manufacturer": 8,
+            "name": "ŠKODA Fabia Rally2 Evo",
+            "builder": false
+        },
+        {
+            "id": 9,
+            "class": 21,
+            "manufacturer": 9,
+            "name": "Volkswagen Polo GTI R5",
+            "builder": false
+        },
+        {
+            "id": 12,
+            "class": 13,
+            "manufacturer": 4,
+            "name": "Citroën C4 WRC",
+            "builder": false
+        },
+        {
+            "id": 13,
+            "class": 13,
+            "manufacturer": 4,
+            "name": "Citroën Xsara WRC",
+            "builder": false
+        },
+        {
+            "id": 14,
+            "class": 13,
+            "manufacturer": 5,
+            "name": "Ford Focus RS Rally 2001",
+            "builder": false
+        },
+        {
+            "id": 15,
+            "class": 13,
+            "manufacturer": 5,
+            "name": "Ford Focus RS Rally 2008",
+            "builder": false
+        },
+        {
+            "id": 16,
+            "class": 13,
+            "manufacturer": 7,
+            "name": "Peugeot 206 Rally",
+            "builder": false
+        },
+        {
+            "id": 17,
+            "class": 13,
+            "manufacturer": 8,
+            "name": "ŠKODA Fabia WRC",
+            "builder": false
+        },
+        {
+            "id": 18,
+            "class": 13,
+            "manufacturer": 12,
+            "name": "SUBARU Impreza 2001",
+            "builder": false
+        },
+        {
+            "id": 19,
+            "class": 13,
+            "manufacturer": 12,
+            "name": "SUBARU Impreza 1998",
+            "builder": false
+        },
+        {
+            "id": 20,
+            "class": 13,
+            "manufacturer": 12,
+            "name": "SUBARU Impreza 2008",
+            "builder": false
+        },
+        {
+            "id": 21,
+            "class": 13,
+            "manufacturer": 13,
+            "name": "SEAT Córdoba WRC",
+            "builder": false
+        },
+        {
+            "id": 22,
+            "class": 12,
+            "manufacturer": 5,
+            "name": "Ford Escort RS Cosworth",
+            "builder": false
+        },
+        {
+            "id": 23,
+            "class": 12,
+            "manufacturer": 14,
+            "name": "Lancia Delta HF Integrale",
+            "builder": false
+        },
+        {
+            "id": 24,
+            "class": 13,
+            "manufacturer": 11,
+            "name": "Mitsubishi Lancer Evolution VI",
+            "builder": false
+        },
+        {
+            "id": 26,
+            "class": 12,
+            "manufacturer": 12,
+            "name": "SUBARU Legacy RS",
+            "builder": false
+        },
+        {
+            "id": 29,
+            "class": 11,
+            "manufacturer": 7,
+            "name": "Peugeot 306 Maxi",
+            "builder": false
+        },
+        {
+            "id": 30,
+            "class": 11,
+            "manufacturer": 9,
+            "name": "Volkswagen Golf IV Kit Car",
+            "builder": false
+        },
+        {
+            "id": 31,
+            "class": 11,
+            "manufacturer": 13,
+            "name": "SEAT Ibiza Kit Car",
+            "builder": false
+        },
+        {
+            "id": 32,
+            "class": 11,
+            "manufacturer": 16,
+            "name": "Vauxhall Astra Rally Car",
+            "builder": false
+        },
+        {
+            "id": 33,
+            "class": 11,
+            "manufacturer": 5,
+            "name": "Ford Escort Mk 6 Maxi",
+            "builder": false
+        },
+        {
+            "id": 34,
+            "class": 11,
+            "manufacturer": 17,
+            "name": "Renault Maxi Mégane",
+            "builder": false
+        },
+        {
+            "id": 35,
+            "class": 10,
+            "manufacturer": 27,
+            "name": "Fiat Grande Punto Abarth S2000",
+            "builder": false
+        },
+        {
+            "id": 36,
+            "class": 10,
+            "manufacturer": 7,
+            "name": "Peugeot 207 S2000",
+            "builder": false
+        },
+        {
+            "id": 41,
+            "class": 9,
+            "manufacturer": 4,
+            "name": "Citroën Saxo Super 1600",
+            "builder": false
+        },
+        {
+            "id": 42,
+            "class": 9,
+            "manufacturer": 17,
+            "name": "Renault Clio S1600",
+            "builder": false
+        },
+        {
+            "id": 43,
+            "class": 9,
+            "manufacturer": 5,
+            "name": "Ford Puma S1600",
+            "builder": false
+        },
+        {
+            "id": 44,
+            "class": 9,
+            "manufacturer": 4,
+            "name": "Citroën C2 Super 1600",
+            "builder": false
+        },
+        {
+            "id": 45,
+            "class": 8,
+            "manufacturer": 5,
+            "name": "Ford Fiesta MK8 Rally4",
+            "builder": false
+        },
+        {
+            "id": 46,
+            "class": 8,
+            "manufacturer": 20,
+            "name": "Opel Adam R2",
+            "builder": false
+        },
+        {
+            "id": 48,
+            "class": 8,
+            "manufacturer": 17,
+            "name": "Renault Twingo II",
+            "builder": false
+        },
+        {
+            "id": 50,
+            "class": 6,
+            "manufacturer": 21,
+            "name": "Audi Sport quattro S1 (E2)",
+            "builder": false
+        },
+        {
+            "id": 51,
+            "class": 6,
+            "manufacturer": 5,
+            "name": "Ford RS200",
+            "builder": false
+        },
+        {
+            "id": 52,
+            "class": 6,
+            "manufacturer": 14,
+            "name": "Lancia Delta S4",
+            "builder": false
+        },
+        {
+            "id": 53,
+            "class": 6,
+            "manufacturer": 18,
+            "name": "MG Metro 6R4",
+            "builder": false
+        },
+        {
+            "id": 54,
+            "class": 6,
+            "manufacturer": 7,
+            "name": "Peugeot 205 T16 Evo 2",
+            "builder": false
+        },
+        {
+            "id": 55,
+            "class": 5,
+            "manufacturer": 22,
+            "name": "BMW M1 Procar Rally",
+            "builder": false
+        },
+        {
+            "id": 57,
+            "class": 5,
+            "manufacturer": 14,
+            "name": "Lancia 037 Evo 2",
+            "builder": false
+        },
+        {
+            "id": 58,
+            "class": 5,
+            "manufacturer": 20,
+            "name": "Opel Manta 400",
+            "builder": false
+        },
+        {
+            "id": 59,
+            "class": 5,
+            "manufacturer": 24,
+            "name": "Porsche 911 SC RS",
+            "builder": false
+        },
+        {
+            "id": 60,
+            "class": 7,
+            "manufacturer": 11,
+            "name": "Mitsubishi Lancer Evolution X",
+            "builder": false
+        },
+        {
+            "id": 61,
+            "class": 7,
+            "manufacturer": 12,
+            "name": "SUBARU WRX STI NR4",
+            "builder": false
+        },
+        {
+            "id": 62,
+            "class": 7,
+            "manufacturer": 25,
+            "name": "McRae R4",
+            "builder": false
+        },
+        {
+            "id": 63,
+            "class": 4,
+            "manufacturer": 22,
+            "name": "BMW M3 Evo Rally",
+            "builder": false
+        },
+        {
+            "id": 64,
+            "class": 4,
+            "manufacturer": 14,
+            "name": "Lancia Stratos",
+            "builder": false
+        },
+        {
+            "id": 65,
+            "class": 4,
+            "manufacturer": 5,
+            "name": "Ford Sierra Cosworth RS500",
+            "builder": false
+        },
+        {
+            "id": 67,
+            "class": 3,
+            "manufacturer": 35,
+            "name": "Hillman Avenger",
+            "builder": false
+        },
+        {
+            "id": 68,
+            "class": 4,
+            "manufacturer": 20,
+            "name": "Opel Ascona 400",
+            "builder": false
+        },
+        {
+            "id": 69,
+            "class": 4,
+            "manufacturer": 17,
+            "name": "Renault 5 Turbo",
+            "builder": false
+        },
+        {
+            "id": 70,
+            "class": 3,
+            "manufacturer": 5,
+            "name": "Ford Escort MK2",
+            "builder": false
+        },
+        {
+            "id": 71,
+            "class": 3,
+            "manufacturer": 27,
+            "name": "Fiat 131 Abarth Rally",
+            "builder": false
+        },
+        {
+            "id": 73,
+            "class": 3,
+            "manufacturer": 20,
+            "name": "Opel Kadett C GT/E",
+            "builder": false
+        },
+        {
+            "id": 74,
+            "class": 3,
+            "manufacturer": 29,
+            "name": "Talbot Sunbeam Lotus",
+            "builder": false
+        },
+        {
+            "id": 75,
+            "class": 3,
+            "manufacturer": 30,
+            "name": "Alpine Renault A110 1600 S",
+            "builder": false
+        },
+        {
+            "id": 76,
+            "class": 2,
+            "manufacturer": 7,
+            "name": "Peugeot 205 GTI",
+            "builder": false
+        },
+        {
+            "id": 77,
+            "class": 2,
+            "manufacturer": 7,
+            "name": "Peugeot 309 GTI",
+            "builder": false
+        },
+        {
+            "id": 78,
+            "class": 1,
+            "manufacturer": 16,
+            "name": "Vauxhall Nova Sport",
+            "builder": false
+        },
+        {
+            "id": 79,
+            "class": 2,
+            "manufacturer": 9,
+            "name": "Volkswagen Golf GTI",
+            "builder": false
+        },
+        {
+            "id": 81,
+            "class": 1,
+            "manufacturer": 14,
+            "name": "Lancia Fulvia HF",
+            "builder": false
+        },
+        {
+            "id": 82,
+            "class": 1,
+            "manufacturer": 32,
+            "name": "MINI Cooper S",
+            "builder": false
+        },
+        {
+            "id": 83,
+            "class": 12,
+            "manufacturer": 11,
+            "name": "Mitsubishi Galant VR4",
+            "builder": false
+        },
+        {
+            "id": 85,
+            "class": 14,
+            "manufacturer": 7,
+            "name": "Peugeot 208 T16 R5",
+            "builder": false
+        },
+        {
+            "id": 86,
+            "class": 13,
+            "manufacturer": 32,
+            "name": "MINI Countryman Rally Edition",
+            "builder": false
+        },
+        {
+            "id": 87,
+            "class": 10,
+            "manufacturer": 20,
+            "name": "Opel Corsa S2000",
+            "builder": false
+        },
+        {
+            "id": 89,
+            "class": 12,
+            "manufacturer": 12,
+            "name": "SUBARU Impreza 1995",
+            "builder": false
+        },
+        {
+            "id": 94,
+            "class": 4,
+            "manufacturer": 5,
+            "name": "Ford Escort MK2 McRae Motorsport",
+            "builder": false
+        },
+        {
+            "id": 95,
+            "class": 17,
+            "manufacturer": 9,
+            "name": "Volkswagen Polo 2017",
+            "builder": false
+        },
+        {
+            "id": 99,
+            "class": 21,
+            "manufacturer": 6,
+            "name": "Hyundai i20 N Rally2",
+            "builder": false
+        },
+        {
+            "id": 100,
+            "class": 21,
+            "manufacturer": 34,
+            "name": "WRC2 Builder Vehicle",
+            "builder": true
+        },
+        {
+            "id": 101,
+            "class": 19,
+            "manufacturer": 34,
+            "name": "WRC Builder Vehicle",
+            "builder": true
+        },
+        {
+            "id": 102,
+            "class": 20,
+            "manufacturer": 34,
+            "name": "Junior WRC Builder Vehicle",
+            "builder": true
+        },
+        {
+            "id": 103,
+            "class": 19,
+            "manufacturer": 5,
+            "name": "Ford Puma Rally1 HYBRID",
+            "builder": false
+        },
+        {
+            "id": 104,
+            "class": 19,
+            "manufacturer": 6,
+            "name": "Hyundai i20 N Rally1 HYBRID",
+            "builder": false
+        },
+        {
+            "id": 105,
+            "class": 19,
+            "manufacturer": 15,
+            "name": "Toyota GR Yaris Rally1 HYBRID",
+            "builder": false
+        },
+        {
+            "id": 106,
+            "class": 20,
+            "manufacturer": 5,
+            "name": "Ford Fiesta Rally3",
+            "builder": false
+        },
+        {
+            "id": 107,
+            "class": 21,
+            "manufacturer": 8,
+            "name": "ŠKODA Fabia RS Rally2",
+            "builder": false
+        },
+        {
+            "id": 112,
+            "class": 14,
+            "manufacturer": 5,
+            "name": "Ford Fiesta R5 MK7 Evo 2",
+            "builder": false
+        },
+        {
+            "id": 116,
+            "class": 14,
+            "manufacturer": 9,
+            "name": "Volkswagen Polo GTI R5",
+            "builder": false
+        },
+        {
+            "id": 117,
+            "class": 14,
+            "manufacturer": 8,
+            "name": "ŠKODA Fabia Rally2 Evo",
+            "builder": false
+        },
+        {
+            "id": 118,
+            "class": 17,
+            "manufacturer": 5,
+            "name": "Ford Fiesta WRC",
+            "builder": false
+        },
+        {
+            "id": 119,
+            "class": 14,
+            "manufacturer": 8,
+            "name": "ŠKODA Fabia RS Rally2",
+            "builder": false
+        }
+    ],
+    "vehicle_classes": [
+        {
+            "id": 1,
+            "name": "H1 (FWD)"
+        },
+        {
+            "id": 2,
+            "name": "H2 (FWD)"
+        },
+        {
+            "id": 3,
+            "name": "H2 (RWD)"
+        },
+        {
+            "id": 4,
+            "name": "H3 (RWD)"
+        },
+        {
+            "id": 5,
+            "name": "Group B (RWD)"
+        },
+        {
+            "id": 6,
+            "name": "Group B (4WD)"
+        },
+        {
+            "id": 7,
+            "name": "NR4/R4"
+        },
+        {
+            "id": 8,
+            "name": "Rally4"
+        },
+        {
+            "id": 9,
+            "name": "S1600"
+        },
+        {
+            "id": 10,
+            "name": "S2000"
+        },
+        {
+            "id": 11,
+            "name": "F2 Kit Car"
+        },
+        {
+            "id": 12,
+            "name": "Group A"
+        },
+        {
+            "id": 13,
+            "name": "World Rally Car 1997 - 2011"
+        },
+        {
+            "id": 14,
+            "name": "Rally2"
+        },
+        {
+            "id": 17,
+            "name": "World Rally Car 2017 - 2021"
+        },
+        {
+            "id": 19,
+            "name": "WRC"
+        },
+        {
+            "id": 20,
+            "name": "JWRC"
+        },
+        {
+            "id": 21,
+            "name": "WRC2"
+        }
+    ],
+    "vehicle_manufacturers": [
+        {
+            "id": 1,
+            "name": "lng_manufacturer_name_test_manufacturer_1"
+        },
+        {
+            "id": 2,
+            "name": "lng_manufacturer_name_test_manufacturer_2"
+        },
+        {
+            "id": 3,
+            "name": "lng_manufacturer_name_test_manufacturer_3"
+        },
+        {
+            "id": 4,
+            "name": "Citroën"
+        },
+        {
+            "id": 5,
+            "name": "Ford"
+        },
+        {
+            "id": 6,
+            "name": "Hyundai"
+        },
+        {
+            "id": 7,
+            "name": "Peugeot"
+        },
+        {
+            "id": 8,
+            "name": "ŠKODA"
+        },
+        {
+            "id": 9,
+            "name": "Volkswagen"
+        },
+        {
+            "id": 10,
+            "name": "Proton"
+        },
+        {
+            "id": 11,
+            "name": "Mitsubishi"
+        },
+        {
+            "id": 12,
+            "name": "SUBARU"
+        },
+        {
+            "id": 13,
+            "name": "SEAT"
+        },
+        {
+            "id": 14,
+            "name": "Lancia"
+        },
+        {
+            "id": 15,
+            "name": "Toyota"
+        },
+        {
+            "id": 16,
+            "name": "Vauxhall"
+        },
+        {
+            "id": 17,
+            "name": "Renault"
+        },
+        {
+            "id": 18,
+            "name": "MG"
+        },
+        {
+            "id": 19,
+            "name": "Suzuki"
+        },
+        {
+            "id": 20,
+            "name": "Opel"
+        },
+        {
+            "id": 21,
+            "name": "Audi"
+        },
+        {
+            "id": 22,
+            "name": "BMW"
+        },
+        {
+            "id": 23,
+            "name": "Nissan"
+        },
+        {
+            "id": 24,
+            "name": "Porsche"
+        },
+        {
+            "id": 25,
+            "name": "DJM Motorsport"
+        },
+        {
+            "id": 26,
+            "name": "Chrysler"
+        },
+        {
+            "id": 27,
+            "name": "Fiat"
+        },
+        {
+            "id": 28,
+            "name": "Lada"
+        },
+        {
+            "id": 29,
+            "name": "Talbot"
+        },
+        {
+            "id": 30,
+            "name": "Alpine"
+        },
+        {
+            "id": 31,
+            "name": "DS Automobiles"
+        },
+        {
+            "id": 32,
+            "name": "MINI"
+        },
+        {
+            "id": 33,
+            "name": "Datsun"
+        },
+        {
+            "id": 34,
+            "name": "Builder"
+        },
+        {
+            "id": 35,
+            "name": "Hillman"
+        }
+    ],
+    "locations": [
+        {
+            "id": 5,
+            "name": "RALLY MEDITERRANEO"
+        },
+        {
+            "id": 6,
+            "name": "VODAFONE RALLY DE PORTUGAL"
+        },
+        {
+            "id": 7,
+            "name": "RALLY ITALIA SARDEGNA"
+        },
+        {
+            "id": 8,
+            "name": "RALLY ESTONIA"
+        },
+        {
+            "id": 9,
+            "name": "RALLY SCANDIA"
+        },
+        {
+            "id": 12,
+            "name": "GUANAJUATO RALLY MÉXICO"
+        },
+        {
+            "id": 13,
+            "name": "BIO BÍO RALLY CHILE"
+        },
+        {
+            "id": 14,
+            "name": "AGON BY AOC RALLY PACIFICO"
+        },
+        {
+            "id": 15,
+            "name": "SECTO RALLY FINLAND"
+        },
+        {
+            "id": 16,
+            "name": "CROATIA RALLY"
+        },
+        {
+            "id": 17,
+            "name": "RALLYE MONTE-CARLO"
+        },
+        {
+            "id": 18,
+            "name": "RALLY SWEDEN"
+        },
+        {
+            "id": 24,
+            "name": "EKO ACROPOLIS RALLY GREECE"
+        },
+        {
+            "id": 25,
+            "name": "FORUM8 RALLY JAPAN"
+        },
+        {
+            "id": 26,
+            "name": "SAFARI RALLY KENYA"
+        },
+        {
+            "id": 27,
+            "name": "FANATEC RALLY OCEANIA"
+        },
+        {
+            "id": 28,
+            "name": "RALLY IBERIA"
+        },
+        {
+            "id": 29,
+            "name": "CENTRAL EUROPE RALLY"
+        }
+    ],
+    "routes": [
+        {
+            "id": 24,
+            "name": "Asco"
+        },
+        {
+            "id": 25,
+            "name": "Ponte"
+        },
+        {
+            "id": 26,
+            "name": "Monte Cinto"
+        },
+        {
+            "id": 28,
+            "name": "Albarello"
+        },
+        {
+            "id": 29,
+            "name": "Capannace"
+        },
+        {
+            "id": 30,
+            "name": "Serra Di Cuzzioli"
+        },
+        {
+            "id": 32,
+            "name": "Maririe"
+        },
+        {
+            "id": 33,
+            "name": "Poggiola"
+        },
+        {
+            "id": 34,
+            "name": "Monte Alloradu"
+        },
+        {
+            "id": 35,
+            "name": "Ravin de Finelio"
+        },
+        {
+            "id": 36,
+            "name": "Cabanella"
+        },
+        {
+            "id": 37,
+            "name": "Moltifao"
+        },
+        {
+            "id": 57,
+            "name": "Talao"
+        },
+        {
+            "id": 58,
+            "name": "Talanghilirair"
+        },
+        {
+            "id": 59,
+            "name": "Sungai Kunit"
+        },
+        {
+            "id": 60,
+            "name": "Sangir Balai Janggo"
+        },
+        {
+            "id": 61,
+            "name": "South Solok"
+        },
+        {
+            "id": 63,
+            "name": "Kebun Raya Solok"
+        },
+        {
+            "id": 64,
+            "name": "Batukangkung"
+        },
+        {
+            "id": 65,
+            "name": "Abai"
+        },
+        {
+            "id": 66,
+            "name": "Moearaikoer"
+        },
+        {
+            "id": 67,
+            "name": "Bidaralam"
+        },
+        {
+            "id": 68,
+            "name": "Loeboekmalaka"
+        },
+        {
+            "id": 69,
+            "name": "Gunung Tujuh"
+        },
+        {
+            "id": 85,
+            "name": "Holtjønn"
+        },
+        {
+            "id": 86,
+            "name": "Hengeltjønn"
+        },
+        {
+            "id": 87,
+            "name": "Fyresvatn"
+        },
+        {
+            "id": 88,
+            "name": "Russvatn"
+        },
+        {
+            "id": 89,
+            "name": "Tovsli"
+        },
+        {
+            "id": 91,
+            "name": "Kottjønn"
+        },
+        {
+            "id": 93,
+            "name": "Fordol"
+        },
+        {
+            "id": 94,
+            "name": "Fyresdal"
+        },
+        {
+            "id": 95,
+            "name": "Ljosdalstjønn"
+        },
+        {
+            "id": 96,
+            "name": "Dagtrolltjønn"
+        },
+        {
+            "id": 97,
+            "name": "Tovslioytjorn"
+        },
+        {
+            "id": 98,
+            "name": "Bergsøytjønn"
+        },
+        {
+            "id": 99,
+            "name": "Baião"
+        },
+        {
+            "id": 100,
+            "name": "Caminha"
+        },
+        {
+            "id": 101,
+            "name": "Fridão"
+        },
+        {
+            "id": 103,
+            "name": "Marão"
+        },
+        {
+            "id": 104,
+            "name": "Ponte de Lima"
+        },
+        {
+            "id": 105,
+            "name": "Viana do Castelo"
+        },
+        {
+            "id": 106,
+            "name": "Ervideiro"
+        },
+        {
+            "id": 108,
+            "name": "Celeiro"
+        },
+        {
+            "id": 109,
+            "name": "Touca"
+        },
+        {
+            "id": 110,
+            "name": "Vila Boa"
+        },
+        {
+            "id": 111,
+            "name": "Carrazedo"
+        },
+        {
+            "id": 112,
+            "name": "Anjos"
+        },
+        {
+            "id": 113,
+            "name": "Rena Majore"
+        },
+        {
+            "id": 114,
+            "name": "Monte Olia"
+        },
+        {
+            "id": 115,
+            "name": "Littichedda"
+        },
+        {
+            "id": 117,
+            "name": "Alà del Sardi"
+        },
+        {
+            "id": 118,
+            "name": "Mamone"
+        },
+        {
+            "id": 119,
+            "name": "Li Pinnenti"
+        },
+        {
+            "id": 120,
+            "name": "Malti"
+        },
+        {
+            "id": 122,
+            "name": "Bassacutena"
+        },
+        {
+            "id": 123,
+            "name": "Bortigiadas"
+        },
+        {
+            "id": 124,
+            "name": "Sa Mela"
+        },
+        {
+            "id": 125,
+            "name": "Monte Muvri"
+        },
+        {
+            "id": 126,
+            "name": "Monte Acuto"
+        },
+        {
+            "id": 127,
+            "name": "El Chocolate"
+        },
+        {
+            "id": 128,
+            "name": "Otates"
+        },
+        {
+            "id": 129,
+            "name": "Ortega"
+        },
+        {
+            "id": 130,
+            "name": "Las Minas"
+        },
+        {
+            "id": 131,
+            "name": "Ibarrilla"
+        },
+        {
+            "id": 133,
+            "name": "Derramadero"
+        },
+        {
+            "id": 134,
+            "name": "El Brinco"
+        },
+        {
+            "id": 136,
+            "name": "Guanajuatito"
+        },
+        {
+            "id": 137,
+            "name": "Alfaro"
+        },
+        {
+            "id": 138,
+            "name": "Mesa Cuata"
+        },
+        {
+            "id": 139,
+            "name": "San Diego"
+        },
+        {
+            "id": 140,
+            "name": "El Mosquito"
+        },
+        {
+            "id": 155,
+            "name": "Bio Bío"
+        },
+        {
+            "id": 156,
+            "name": "Pulpería"
+        },
+        {
+            "id": 157,
+            "name": "Río Lía"
+        },
+        {
+            "id": 159,
+            "name": "María Las Cruces"
+        },
+        {
+            "id": 160,
+            "name": "Las Pataguas"
+        },
+        {
+            "id": 161,
+            "name": "Rere"
+        },
+        {
+            "id": 162,
+            "name": "El Poñen"
+        },
+        {
+            "id": 163,
+            "name": "Laja"
+        },
+        {
+            "id": 164,
+            "name": "Yumbel"
+        },
+        {
+            "id": 165,
+            "name": "Río Claro"
+        },
+        {
+            "id": 166,
+            "name": "Hualqui"
+        },
+        {
+            "id": 167,
+            "name": "Chivilingo"
+        },
+        {
+            "id": 204,
+            "name": "Leustu"
+        },
+        {
+            "id": 205,
+            "name": "Lahdenkylä"
+        },
+        {
+            "id": 206,
+            "name": "Saakoski"
+        },
+        {
+            "id": 207,
+            "name": "Maahi"
+        },
+        {
+            "id": 208,
+            "name": "Painaa"
+        },
+        {
+            "id": 209,
+            "name": "Peltola"
+        },
+        {
+            "id": 216,
+            "name": "Päijälä"
+        },
+        {
+            "id": 217,
+            "name": "Ruokolahti"
+        },
+        {
+            "id": 218,
+            "name": "Honkanen"
+        },
+        {
+            "id": 219,
+            "name": "Venkajärvi"
+        },
+        {
+            "id": 220,
+            "name": "Vehmas"
+        },
+        {
+            "id": 221,
+            "name": "Hatanpää"
+        },
+        {
+            "id": 229,
+            "name": "Hof-Finnskog"
+        },
+        {
+            "id": 230,
+            "name": "Åsnes"
+        },
+        {
+            "id": 231,
+            "name": "Spikbrenna"
+        },
+        {
+            "id": 232,
+            "name": "Lauksjøen"
+        },
+        {
+            "id": 233,
+            "name": "Åslia"
+        },
+        {
+            "id": 234,
+            "name": "Knapptjernet"
+        },
+        {
+            "id": 241,
+            "name": "Vargasen"
+        },
+        {
+            "id": 242,
+            "name": "Lövstaholm"
+        },
+        {
+            "id": 243,
+            "name": "Älgsjön"
+        },
+        {
+            "id": 244,
+            "name": "Ekshärad"
+        },
+        {
+            "id": 245,
+            "name": "Stora Jangen"
+        },
+        {
+            "id": 246,
+            "name": "Sunne"
+        },
+        {
+            "id": 252,
+            "name": "La Bollène-Vésubie - Peïra Cava"
+        },
+        {
+            "id": 253,
+            "name": "Peïra Cava - La Bollène-Vésubie"
+        },
+        {
+            "id": 254,
+            "name": "La Bollène-Vésubie - Col de Turini"
+        },
+        {
+            "id": 255,
+            "name": "Pra d'Alart"
+        },
+        {
+            "id": 256,
+            "name": "La Maïris"
+        },
+        {
+            "id": 257,
+            "name": "Baisse de Patronel"
+        },
+        {
+            "id": 263,
+            "name": "Saint-Léger-les-Mélèzes - La Bâtie-Neuve"
+        },
+        {
+            "id": 264,
+            "name": "La Bâtie-Neuve - Saint-Léger-les-Mélèzes"
+        },
+        {
+            "id": 265,
+            "name": "Moissière"
+        },
+        {
+            "id": 266,
+            "name": "Ancelle"
+        },
+        {
+            "id": 267,
+            "name": "Ravin de Coste Belle"
+        },
+        {
+            "id": 268,
+            "name": "Les Borels"
+        },
+        {
+            "id": 274,
+            "name": "Santes Creus"
+        },
+        {
+            "id": 275,
+            "name": "Valldossera"
+        },
+        {
+            "id": 276,
+            "name": "Campdasens"
+        },
+        {
+            "id": 277,
+            "name": "Pontils"
+        },
+        {
+            "id": 278,
+            "name": "Montagut"
+        },
+        {
+            "id": 279,
+            "name": "Aiguamúrcia"
+        },
+        {
+            "id": 285,
+            "name": "Alforja"
+        },
+        {
+            "id": 286,
+            "name": "Les Irles"
+        },
+        {
+            "id": 287,
+            "name": "L'Argentera"
+        },
+        {
+            "id": 288,
+            "name": "Les Voltes"
+        },
+        {
+            "id": 289,
+            "name": "Montclar"
+        },
+        {
+            "id": 290,
+            "name": "Botareli"
+        },
+        {
+            "id": 296,
+            "name": "Gravia"
+        },
+        {
+            "id": 297,
+            "name": "Prosilio"
+        },
+        {
+            "id": 298,
+            "name": "Mariolata"
+        },
+        {
+            "id": 299,
+            "name": "Karoutes"
+        },
+        {
+            "id": 300,
+            "name": "Viniani"
+        },
+        {
+            "id": 301,
+            "name": "Delphi"
+        },
+        {
+            "id": 302,
+            "name": "Eptalofos"
+        },
+        {
+            "id": 303,
+            "name": "Lilea"
+        },
+        {
+            "id": 304,
+            "name": "Parnassós"
+        },
+        {
+            "id": 305,
+            "name": "Bauxites"
+        },
+        {
+            "id": 306,
+            "name": "Drosochori"
+        },
+        {
+            "id": 307,
+            "name": "Amfissa"
+        },
+        {
+            "id": 308,
+            "name": "Lake Mikawa"
+        },
+        {
+            "id": 309,
+            "name": "Kudarisawa"
+        },
+        {
+            "id": 310,
+            "name": "Oninotaira"
+        },
+        {
+            "id": 311,
+            "name": "Okuwacho"
+        },
+        {
+            "id": 312,
+            "name": "Habu Dam"
+        },
+        {
+            "id": 313,
+            "name": "Habucho"
+        },
+        {
+            "id": 314,
+            "name": "Nenoue Plateau"
+        },
+        {
+            "id": 315,
+            "name": "Tegano"
+        },
+        {
+            "id": 316,
+            "name": "Higashino"
+        },
+        {
+            "id": 317,
+            "name": "Hokono Lake"
+        },
+        {
+            "id": 318,
+            "name": "Nenoue Highlands"
+        },
+        {
+            "id": 319,
+            "name": "Nakatsugawa"
+        },
+        {
+            "id": 320,
+            "name": "Otepää"
+        },
+        {
+            "id": 321,
+            "name": "Rebaste"
+        },
+        {
+            "id": 322,
+            "name": "Nüpli"
+        },
+        {
+            "id": 323,
+            "name": "Truuta"
+        },
+        {
+            "id": 324,
+            "name": "Koigu"
+        },
+        {
+            "id": 325,
+            "name": "Kooraste"
+        },
+        {
+            "id": 326,
+            "name": "Elva"
+        },
+        {
+            "id": 327,
+            "name": "Metsalaane"
+        },
+        {
+            "id": 328,
+            "name": "Vahessaare"
+        },
+        {
+            "id": 329,
+            "name": "Külaaseme"
+        },
+        {
+            "id": 330,
+            "name": "Vissi"
+        },
+        {
+            "id": 331,
+            "name": "Vellavere"
+        },
+        {
+            "id": 332,
+            "name": "Malewa"
+        },
+        {
+            "id": 333,
+            "name": "Tarambete"
+        },
+        {
+            "id": 334,
+            "name": "Moi North"
+        },
+        {
+            "id": 335,
+            "name": "Marula"
+        },
+        {
+            "id": 336,
+            "name": "Wileli"
+        },
+        {
+            "id": 337,
+            "name": "Kingono"
+        },
+        {
+            "id": 338,
+            "name": "Soysambu"
+        },
+        {
+            "id": 339,
+            "name": "Mbaruk"
+        },
+        {
+            "id": 340,
+            "name": "Sugunoi"
+        },
+        {
+            "id": 341,
+            "name": "Nakuru"
+        },
+        {
+            "id": 342,
+            "name": "Kanyawa"
+        },
+        {
+            "id": 343,
+            "name": "Kanyawa - Nakura"
+        },
+        {
+            "id": 344,
+            "name": "Bliznec"
+        },
+        {
+            "id": 345,
+            "name": "Trakošćan"
+        },
+        {
+            "id": 346,
+            "name": "Vrbno"
+        },
+        {
+            "id": 347,
+            "name": "Zagorska Sela"
+        },
+        {
+            "id": 348,
+            "name": "Kumrovec"
+        },
+        {
+            "id": 349,
+            "name": "Grdanjci"
+        },
+        {
+            "id": 350,
+            "name": "Stojdraga"
+        },
+        {
+            "id": 351,
+            "name": "Mali Lipovec"
+        },
+        {
+            "id": 352,
+            "name": "Hartje"
+        },
+        {
+            "id": 353,
+            "name": "Kostanjevac"
+        },
+        {
+            "id": 354,
+            "name": "Krašić"
+        },
+        {
+            "id": 355,
+            "name": "Petruš Vrh"
+        },
+        {
+            "id": 356,
+            "name": "Oakleigh"
+        },
+        {
+            "id": 357,
+            "name": "Doctors Hill"
+        },
+        {
+            "id": 358,
+            "name": "Mangapai"
+        },
+        {
+            "id": 359,
+            "name": "Brynderwyn"
+        },
+        {
+            "id": 360,
+            "name": "Taipuha"
+        },
+        {
+            "id": 361,
+            "name": "Mareretu"
+        },
+        {
+            "id": 362,
+            "name": "Waiwera"
+        },
+        {
+            "id": 363,
+            "name": "Tahekeroa"
+        },
+        {
+            "id": 364,
+            "name": "Noakes Hill"
+        },
+        {
+            "id": 365,
+            "name": "Orewa"
+        },
+        {
+            "id": 366,
+            "name": "Tahekeroa - Orewa"
+        },
+        {
+            "id": 367,
+            "name": "Makarau"
+        },
+        {
+            "id": 368,
+            "name": "Rouské"
+        },
+        {
+            "id": 369,
+            "name": "Lukoveček"
+        },
+        {
+            "id": 370,
+            "name": "Raztoka"
+        },
+        {
+            "id": 371,
+            "name": "Žabárna"
+        },
+        {
+            "id": 372,
+            "name": "Provodovice"
+        },
+        {
+            "id": 373,
+            "name": "Chvalčov"
+        },
+        {
+            "id": 374,
+            "name": "Vítová"
+        },
+        {
+            "id": 375,
+            "name": "Brusné"
+        },
+        {
+            "id": 376,
+            "name": "Libosváry"
+        },
+        {
+            "id": 377,
+            "name": "Rusava"
+        },
+        {
+            "id": 378,
+            "name": "Osíčko"
+        },
+        {
+            "id": 379,
+            "name": "Příkazy"
+        }
+    ],
+    "vehicle_tyre_state": [
+        {
+            "id": 0,
+            "name": "undamaged"
+        },
+        {
+            "id": 1,
+            "name": "punctured"
+        },
+        {
+            "id": 2,
+            "name": "burst"
+        }
+    ],
+    "game_mode": [
+        {
+            "id": 0,
+            "name": "time_trial"
+        },
+        {
+            "id": 1,
+            "name": "quick_play_multiplayer"
+        },
+        {
+            "id": 2,
+            "name": "quick_play_solo"
+        },
+        {
+            "id": 3,
+            "name": "esports"
+        },
+        {
+            "id": 4,
+            "name": "career"
+        },
+        {
+            "id": 5,
+            "name": "test_drive"
+        },
+        {
+            "id": 6,
+            "name": "moments"
+        },
+        {
+            "id": 7,
+            "name": "clubs"
+        },
+        {
+            "id": 8,
+            "name": "championship"
+        },
+        {
+            "id": 9,
+            "name": "rally_school"
+        }
+    ],
+    "stage_result_status": [
+        {
+            "id": 0,
+            "name": "not_finished"
+        },
+        {
+            "id": 1,
+            "name": "finished"
+        },
+        {
+            "id": 2,
+            "name": "timed_out_stage"
+        },
+        {
+            "id": 3,
+            "name": "terminally_damaged"
+        },
+        {
+            "id": 4,
+            "name": "retired"
+        },
+        {
+            "id": 5,
+            "name": "disqualified"
+        },
+        {
+            "id": 6,
+            "name": "unknown"
+        }
+    ]
+}
