@@ -2,6 +2,7 @@ from threading import Thread
 import socket
 import struct
 
+from listener.models.run_abort import RunAbort
 from listener.models.run_result import RunResult
 from listener.models.track import Track
 from listener.models.vehicle import Vehicle
@@ -35,18 +36,20 @@ class Listener:
         uint8_result_status = struct.unpack("B", raw_data[20:21])[0]
         
         if bool_shakedown:
-            print(f"Run was a shakedown (ignored)")
+            print(f"IGNORE (shakedown)")
             return
 
-        if uint8_result_status != 1:
-            print(f"Run aborted")
-            return
-        
         track = Track(uint16_location, uint16_route)
         vehicle = Vehicle(uint16_vehicle_class, uint16_vehicle_manufacturer, uint16_vehicle)
-        run_results = RunResult(float32_result_time, float32_result_penalty, uint8_gamemode)
-        self.__storage_handler.store_run(run_results, vehicle, track)
-        print(f"Run saved {run_results}, {track}, {vehicle}")
+
+        if uint8_result_status == 1:
+            run_results = RunResult(float32_result_time, float32_result_penalty, uint8_gamemode)
+            self.__storage_handler.store_run(run_results, vehicle, track)
+            print(f"FINISH {run_results}, {track}, {vehicle}")
+        else:
+            run_abort = RunAbort(float32_result_time, float32_result_penalty, uint8_gamemode, uint8_result_status)
+            self.__storage_handler.store_abort(run_abort, vehicle, track)
+            print(f"ABORT {run_abort}")
 
 
     def start(self):

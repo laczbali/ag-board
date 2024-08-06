@@ -1,6 +1,7 @@
 import sqlite3
 import os
 
+from listener.models.run_abort import RunAbort
 from listener.models.run_result import RunResult
 from listener.models.track import Track
 from listener.models.vehicle import Vehicle
@@ -20,6 +21,18 @@ class StorageHandler:
         conn = sqlite3.connect(self.__db_path)
         cursor = conn.cursor()
         cursor.execute(route_insert[0], route_insert[1])
+        conn.commit()
+        conn.close()
+
+
+    def store_abort(self, run_abort, vehicle, track):
+        vehicle_id = self.get_vehicle_id(vehicle)
+        track_id = self.get_track_id(track)
+        abort_insert = run_abort.sql_insert(vehicle_id, track_id)
+
+        conn = sqlite3.connect(self.__db_path)
+        cursor = conn.cursor()
+        cursor.execute(abort_insert[0], abort_insert[1])
         conn.commit()
         conn.close()
 
@@ -66,11 +79,13 @@ class StorageHandler:
         vehicle_table = Vehicle.sql_create()
         track_table = Track.sql_create()
         run_table = RunResult.sql_create()
+        abort_table = RunAbort.sql_create()
 
         conn = sqlite3.connect(self.__db_path)
         cursor = conn.cursor()
         cursor.execute(vehicle_table)
         cursor.execute(track_table)
         cursor.execute(run_table)
+        cursor.execute(abort_table)
         conn.commit()
         conn.close()
