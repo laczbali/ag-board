@@ -9,7 +9,7 @@ from listener.models.vehicle import Vehicle
 class StorageHandler:
 
     def __init__(self):
-        self.__db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data.db")
+        self.__db_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "../", "database", "data.db")
         self.__create_tables()
 
 
