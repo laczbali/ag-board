@@ -37,3 +37,19 @@ class Track:
             routes = ids_data["routes"]
             Track.route_lookup = {route["id"]: route["name"] for route in routes}
             
+
+    def sql_create():
+        return """
+        CREATE TABLE IF NOT EXISTS tracks (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            location TEXT,
+            route TEXT
+        )
+        """
+    
+
+    def sql_insert(self):
+        return (
+            "INSERT INTO tracks (location, route) VALUES (?, ?)",
+            (self.location, self.route)
+        )

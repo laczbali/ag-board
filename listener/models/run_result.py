@@ -31,3 +31,23 @@ class RunResult:
             
             gamemodes = ids_data["game_mode"]
             RunResult.gamemode_lookup = {gamemode["id"]: gamemode["name"] for gamemode in gamemodes}
+
+
+    def sql_create():
+        return """
+        CREATE TABLE IF NOT EXISTS runs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            result REAL,
+            penalty REAL,
+            metadata TEXT,
+            finished_at TEXT DEFAULT CURRENT_TIMESTAMP,
+            vehicle_id INTEGER,
+            track_id INTEGER
+        )
+        """
+    
+    def sql_insert(self, vehicle_id, track_id):
+        return (
+            "INSERT INTO runs (result, penalty, metadata, vehicle_id, track_id) VALUES (?, ?, ?, ?, ?)",
+            (self.result_sec, self.penalty_sec, json.dumps(self.metadata), vehicle_id, track_id)
+        )

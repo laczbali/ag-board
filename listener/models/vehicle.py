@@ -54,3 +54,21 @@ class Vehicle:
             Vehicle.manufacturer_lookup = {manufacturer["id"]: manufacturer["name"] for manufacturer in manufacturers}
             names = ids_data["vehicles"]
             Vehicle.name_lookup = {name["id"]: name["name"] for name in names}
+
+
+    def sql_create():
+        return """
+        CREATE TABLE IF NOT EXISTS vehicles (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            group_name TEXT,
+            manufacturer TEXT,
+            name TEXT
+        )
+        """
+    
+
+    def sql_insert(self):
+        return (
+            "INSERT INTO vehicles (group_name, manufacturer, name) VALUES (?, ?, ?)",
+            (self.group_name, self.manufacturer, self.name)
+        )

@@ -1,6 +1,10 @@
 import sqlite3
 import os
 
+from listener.models.run_result import RunResult
+from listener.models.track import Track
+from listener.models.vehicle import Vehicle
+
 class StorageHandler:
 
     def __init__(self):
@@ -11,12 +15,11 @@ class StorageHandler:
     def store_run(self, run_result, vehicle, track):
         vehicle_id = self.get_vehicle_id(vehicle)
         track_id = self.get_track_id(track)
+        route_insert = run_result.sql_insert(vehicle_id, track_id)
+
         conn = sqlite3.connect(self.__db_path)
         cursor = conn.cursor()
-        cursor.execute(
-            "INSERT INTO runs (result, penalty, metadata, vehicle_id, track_id) VALUES (?, ?, ?, ?, ?)",
-            (run_result.result_sec, run_result.penalty_sec, str(run_result.metadata), vehicle_id, track_id)
-        )
+        cursor.execute(route_insert[0], route_insert[1])
         conn.commit()
         conn.close()
 
@@ -33,10 +36,8 @@ class StorageHandler:
             conn.close()
             return vehicle_id[0]
         
-        cursor.execute(
-            "INSERT INTO vehicles (group_name, manufacturer, name) VALUES (?, ?, ?)",
-            (vehicle.group_name, vehicle.manufacturer, vehicle.name)
-        )
+        vehicle_insert = vehicle.sql_insert()
+        cursor.execute(vehicle_insert[0], vehicle_insert[1])
         conn.commit()
         conn.close()
         return cursor.lastrowid
@@ -54,42 +55,18 @@ class StorageHandler:
             conn.close()
             return track_id[0]
         
-        cursor.execute(
-            "INSERT INTO tracks (location, route) VALUES (?, ?)",
-            (track.location, track.route)
-        )
+        track_insert = track.sql_insert()
+        cursor.execute(track_insert[0], track_insert[1])
         conn.commit()
         conn.close()
         return cursor.lastrowid
 
 
     def __create_tables(self):
-        vehicle_table = """
-        CREATE TABLE IF NOT EXISTS vehicles (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            group_name TEXT,
-            manufacturer TEXT,
-            name TEXT
-        )
-        """
-        track_table = """
-        CREATE TABLE IF NOT EXISTS tracks (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            location TEXT,
-            route TEXT
-        )
-        """
-        run_table = """
-        CREATE TABLE IF NOT EXISTS runs (
-            id INTEGER PRIMARY KEY AUTOINCREMENT,
-            result REAL,
-            penalty REAL,
-            metadata TEXT,
-            finished_at TEXT DEFAULT CURRENT_TIMESTAMP,
-            vehicle_id INTEGER,
-            track_id INTEGER
-        )
-        """
+        vehicle_table = Vehicle.sql_create()
+        track_table = Track.sql_create()
+        run_table = RunResult.sql_create()
+
         conn = sqlite3.connect(self.__db_path)
         cursor = conn.cursor()
         cursor.execute(vehicle_table)
