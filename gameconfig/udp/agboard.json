@@ -9,7 +9,7 @@
     },
     "packets": [
         {
-            "id": "session_start",
+            "id": "session_end",
             "channels": [
                 "stage_shakedown",
                 "game_mode",
@@ -17,18 +17,7 @@
                 "vehicle_class_id",
                 "vehicle_manufacturer_id",
                 "location_id",
-                "route_id"
-            ]
-        },
-        {
-            "id": "session_update",
-            "channels": [
-                "stage_current_time"
-            ]
-        },
-        {
-            "id": "session_end",
-            "channels": [
+                "route_id",
                 "stage_result_time",
                 "stage_result_time_penalty",
                 "stage_result_status"

@@ -13,7 +13,7 @@ class Track:
 
 
     def __str__(self):
-        return f'{self.route}, {self.location}'
+        return f'{self.route} [{self.location}]'
 
 
     def __location_by_id(location_id):

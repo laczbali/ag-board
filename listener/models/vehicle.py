@@ -15,7 +15,7 @@ class Vehicle:
         
 
     def __str__(self):
-        return f'[{self.group_name}] {self.name}'
+        return f'{self.name} [{self.group_name}]'
     
 
     def create_table():
