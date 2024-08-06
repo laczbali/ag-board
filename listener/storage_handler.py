@@ -14,8 +14,8 @@ class StorageHandler:
         conn = sqlite3.connect(self.__db_path)
         cursor = conn.cursor()
         cursor.execute(
-            "INSERT INTO runs (result, penalty, game_mode, vehicle_id, track_id) VALUES (?, ?, ?, ?, ?)",
-            (run_result.result_sec, run_result.penalty_sec, run_result.gamemode, vehicle_id, track_id)
+            "INSERT INTO runs (result, penalty, metadata, vehicle_id, track_id) VALUES (?, ?, ?, ?, ?)",
+            (run_result.result_sec, run_result.penalty_sec, str(run_result.metadata), vehicle_id, track_id)
         )
         conn.commit()
         conn.close()
@@ -84,7 +84,7 @@ class StorageHandler:
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             result REAL,
             penalty REAL,
-            game_mode TEXT,
+            metadata TEXT,
             finished_at TEXT DEFAULT CURRENT_TIMESTAMP,
             vehicle_id INTEGER,
             track_id INTEGER

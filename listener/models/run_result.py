@@ -9,7 +9,9 @@ class RunResult:
     def __init__(self, result_sec, penalty_sec, gamemode_id):
         self.result_sec = result_sec
         self.penalty_sec = penalty_sec
-        self.gamemode = RunResult.__gamemode_by_id(gamemode_id)
+        self.metadata = {
+            "gamemode": RunResult.__gamemode_by_id(gamemode_id)
+        }
         
 
     def __str__(self):
