@@ -30,9 +30,9 @@ class Listener:
         uint16_vehicle_manufacturer = struct.unpack("H", raw_data[6:8])[0]
         uint16_location = struct.unpack("H", raw_data[8:10])[0]
         uint16_route = struct.unpack("H", raw_data[10:12])[0]
-        float32_result_time = struct.unpack("f", raw_data[0:4])[0]
-        float32_result_penalty = struct.unpack("f", raw_data[4:8])[0]
-        uint8_result_status = struct.unpack("B", raw_data[8:9])[0]
+        float32_result_time = struct.unpack("f", raw_data[12:16])[0]
+        float32_result_penalty = struct.unpack("f", raw_data[16:20])[0]
+        uint8_result_status = struct.unpack("B", raw_data[20:21])[0]
         
         if bool_shakedown:
             print(f"Run was a shakedown (ignored)")
